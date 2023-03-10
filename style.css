@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.container1 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 35vh;
+  height: 83vh;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-family: "Ubuntu";
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.container1 i {
+  padding-right: 20px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+hr#divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(82, 77, 77);
+}
+
+.container1 p {
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(184, 179, 179);
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  padding: 2px 2px;
+}
+
+#home,
+#search {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+#library {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+#playlist,
+#liked {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.container2 {
+  background-color: rgb(26, 25, 25);
+  width: 75vw;
+  height: 9vh;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  padding-bottom: 500px;
+}
+
+#previous {
+  display: flex;
+  justify-self: start;
+  width: 70%;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#next {
+  display: flex;
+  justify-self: start;
+  width: 650%;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.nav2 {
+  position: sticky;
+  top: 0;
+  background-color: rgb(26, 25, 25);
+}
+
+.nav2 ul {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  align-items: center;
+}
+
+#upgrade {
+  display: inline-block;
+  position: relative;
+  width: 140px;
+  height: 60px;
+  border-radius: 27px;
+  background-color: rgb(26, 25, 25);
+  border: 0.5px solid whitesmoke;
+  color: white;
+  margin-right: 40px;
+  font-size: 17px;
+}
+
+#upgrade:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#marcos {
+  background-color: black;
+  color: white;
+  border-radius: 27px;
+  width: 100px;
+  height: 30px;
+  font-family: "Ubuntu";
+  font-size: 15px;
+}
+
+#marcos i {
+  left: 20px;
+  padding-right: 7px;
+  margin-left: -13px;
+}
+
+#marcos:hover {
+  cursor: pointer;
+  background-color: rgb(26, 25, 25);
+}
+
+#heading {
+  margin-top: 20px;
+  color: white;
+  font-size: 27px;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-family: "ubuntu";
+}
+
+#heading2 {
+  margin-top: 40px;
+  color: white;
+  font-size: 27px;
+  margin-left: 10px;
+  padding-top: 300px;
+  font-family: "ubuntu";
+}
+
+#heading3 {
+  margin-top: 40px;
+  color: white;
+  font-size: 27px;
+  margin-left: 10px;
+  padding-top: 300px;
+  font-family: "ubuntu";
+}
+.grid {
+  display: grid;
+  height: 289px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 17px;
+  margin-top: 17px;
+}
+
+.grid3 {
+  display: grid;
+  height: 289px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 17px;
+  margin-top: 11px;
+}
+
+.grid2 {
+  display: grid;
+  height: 289px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 17px;
+  margin-top: 11px;
+}
+
+.grid1 {
+  justify-self: center;
+  width: 150px;
+  height: 252px;
+  background-color: rgb(39, 38, 38);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.grid1:hover{
+  background-color: rgb(59, 59, 59);
+  cursor: pointer;
+}
+
+#juicetext1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 11px;
+  color: white;
+  font-family: "ubuntu";
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#juicetext2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(156, 161, 161);
+}
+
+.grid1 img {
+  width: 150px;
+  height: 176px;
+  border-radius: 5px;
+}
+
+.grid p {
+  justify-self: center;
+}
+
+.container3 {
+  position: sticky;
+  top: 0;
+  /* display: flex; */
+  width: 41vh;
+  height: 83vh;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-family: "Ubuntu";
+  padding: 10px;
+}
+
+#text1 {
+  display: flex;
+  height: 20px;
+  font-weight: 800;
+  color: rgb(156, 161, 161);
+}
+
+#text2 {
+  padding-top: 65px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(156, 161, 161);
+}
+
+#text3 {
+  padding-top: 35px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(156, 161, 161);
+}
+.friend1 {
+  display: flex;
+  padding-top: 22px;
+  padding-left: 2px;
+}
+
+.friend1 p {
+  width: 155px;
+  height: 21px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: 900;
+  font-family: "Ubuntu";
+  color: rgb(228, 227, 227);
+}
+
+.friend2 {
+  display: flex;
+  padding-top: 22px;
+  padding-left: 2px;
+}
+
+.friend2 p {
+  width: 155px;
+  height: 21px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: 900;
+  font-family: "Ubuntu";
+  color: rgb(228, 227, 227);
+}
+
+#flw {
+  width: 155px;
+  height: 10px;
+  font-size: 12px;
+  color: rgb(98, 99, 99);
+}
+
+#flw1 {
+  width: 155px;
+  height: 10px;
+  font-size: 12px;
+  color: rgb(98, 99, 99);
+}
+
+#flw2 {
+  width: 155px;
+  height: 10px;
+  padding-left: 16px;
+}
+#flwt1 {
+  width: 155px;
+  height: 10px;
+  padding-left: 16px;
+}
+
+#flw3 {
+  width: 155px;
+  height: 10px;
+  padding-left: 40px;
+}
+
+#flwt2 {
+  width: 155px;
+  height: 10px;
+  padding-left: 40px;
+}
+
+#img1 {
+  top: 10px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.container3 i {
+  height: 20px;
+  padding-left: 131px;
+}
+
+#settings {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-left: 60px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 140px;
+  height: 60px;
+  border-radius: 27px;
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(26, 25, 25);
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 15vh;
+  border-top: 1px solid black;
+  color: white;
+}
+
+.container4 img {
+  padding-left: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.container4 p {
+  font-size: 13px;
+  color: rgba(184, 181, 181, 0.856);
+}
+
+.container4 i {
+  cursor: pointer;
+  padding-left: 25px;
+}
+
+#songName {
+  padding-left: 20px;
+}
+/* 
+.btn{
+    width: 59%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+}
+
+#progressBar{
+    width: 80vw;
+} */
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 73px;
+  width: 62%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myProgressBar {
+  padding-top: 20px;
+  width: 30vw;
+  cursor: pointer;
+}
+
+#myProgressBar2 {
+  width: 67px;
+  height: 12px;
+}
