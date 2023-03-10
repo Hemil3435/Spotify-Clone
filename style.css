@@ -88,6 +88,7 @@ li {
   cursor: pointer;
 }
 
+
 #next {
   display: flex;
   justify-self: start;
@@ -142,6 +143,7 @@ li {
   padding-right: 7px;
   margin-left: -13px;
 }
+
 
 #marcos:hover {
   cursor: pointer;
@@ -279,7 +281,9 @@ li {
   font-weight: 600;
   color: rgb(156, 161, 161);
 }
+
 .friend1 {
+  cursor: pointer;
   display: flex;
   padding-top: 22px;
   padding-left: 2px;
@@ -297,6 +301,7 @@ li {
 }
 
 .friend2 {
+  cursor: pointer;
   display: flex;
   padding-top: 22px;
   padding-left: 2px;
@@ -356,7 +361,9 @@ li {
   width: 90px;
   height: 90px;
 }
+
 .container3 i {
+  cursor: pointer;
   height: 20px;
   padding-left: 131px;
 }
@@ -374,6 +381,10 @@ li {
   width: 140px;
   height: 60px;
   border-radius: 27px;
+}
+
+#settings:hover{
+  background-color: rgb(190, 189, 189);
 }
 
 .container4 {
